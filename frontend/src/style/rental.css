@@ -1,0 +1,116 @@
+.site-section {
+    padding: 2.5em 0;
+}
+
+@media (min-width: 768px) {
+    .site-section {
+        padding: 5em 0;
+    }
+}
+
+.site-section.site-section-sm {
+    padding: 4em 0;
+}
+
+.section-heading strong {
+    font-weight: 700;
+}
+
+.listing {
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.listing .listing-img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.listing .listing-img img {
+    border-radius: 7px;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.listing .listing-contents h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.listing .listing-contents .rent-price strong {
+    color: #0779e4;
+    font-size: 18px;
+}
+
+.listing .listing-contents .listing-feature .number {
+    color: #888;
+}
+
+.listing .listing-contents .caption {
+    color: #000;
+    margin-right: 10px;
+}
+
+.listing p {
+    color: #888;
+    font-size: 14px;
+}
+
+.custom-pagination a, .custom-pagination span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 50%; }
+
+.custom-pagination span {
+  background: #efefef; }
+
+.custom-pagination a {
+  background: #0779e4;
+  color: #fff; }
+
+
+/* Button styles for slider navigation */
+.slider-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listing {
+  display: block;
+  width: 100%;
+}

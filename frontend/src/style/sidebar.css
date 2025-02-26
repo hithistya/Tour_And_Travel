@@ -1,0 +1,25 @@
+.main-sidebar {
+    background: linear-gradient(to bottom, #89CFF0, #A8E6CF);
+}
+
+.nav-sidebar .nav-link {
+    color: rgb(0, 0, 0) !important; 
+    background-color: transparent !important; 
+    transition: all 0.3s ease-in-out; 
+    padding: 10px 15px; 
+}
+
+.nav-sidebar .nav-link:hover,
+.nav-sidebar .nav-link:focus {
+    background-color: #ffffff !important; 
+    color: rgb(0, 0, 0) !important;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(126, 223, 250, 0.5); 
+}
+
+.nav-sidebar .nav-link:active {
+    background-color: #000000 !important; 
+    color: white !important; 
+    transform: scale(0.98); 
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.7); 
+}

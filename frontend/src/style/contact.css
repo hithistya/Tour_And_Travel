@@ -1,0 +1,213 @@
+.contact-info {
+    margin-bottom: 25px;
+  }
+  
+  /* line 6, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .contact-info__icon {
+    margin-right: 20px;
+  }
+  
+  /* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .contact-info__icon i, .contact-info__icon span {
+    color: #8f9195;
+    font-size: 27px;
+  }
+  
+  /* line 17, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .contact-info .media-body h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+  }
+  
+  /* line 23, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .contact-info .media-body h3 a:hover {
+    color: #ffcc00;
+  }
+  
+  /* line 29, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .contact-info .media-body p {
+    color: #8a8a8a;
+  }
+  
+  /*=================== contact banner end ====================*/
+  /*=================== contact form start ====================*/
+  /* line 39, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* line 47, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact label {
+    font-size: 14px;
+  }
+  
+  /* line 50, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-group {
+    margin-bottom: 30px;
+  }
+  
+  /* line 52, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-group .button-contactForm {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  /* line 55, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-group .btn_1 {
+    margin-bottom: 0px;
+    border: none;
+    background: #ffcc00;
+    border-radius: 0;
+    color: #000;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 55, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+    .form-contact .form-group .btn_1 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* line 66, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-group .btn_1 i {
+    color: #000;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px;
+    background-size: 200% auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  /* line 77, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-group .btn_1:hover {
+    border: 1px solid #ffcc00;
+    color:rgb(255, 255, 255) !important;
+  }
+  
+  /* line 80, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-group .btn_1:hover i {
+    color: #ffcc00;
+    color: #fff !important;
+  }
+  
+  /* line 88, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-control {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+  }
+  
+  /* line 96, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /* line 101, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999;
+  }
+  
+  /* line 107, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .form-contact textarea {
+    border-radius: 12px;
+    height: 100% !important;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 119, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+    .contact-section .btn_1 {
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 127, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+    .contact-section .btn_1 {
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 135, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+    .contact-section .btn_1 {
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 143, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+    .contact-section .btn_1 {
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
+    }
+  }
+  
+  /*=================== contact form end ====================*/
+  /* Contact Success and error Area css
+  ============================================================================================ */
+  /* line 156, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .modal-message .modal-dialog {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* line 165, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .modal-message .modal-dialog .modal-content .modal-header {
+    text-align: center;
+    display: block;
+    border-bottom: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* line 171, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .modal-message .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    padding: 0px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  /* line 180, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .modal-message .modal-dialog .modal-content .modal-header h2 {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  /* line 185, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+  .modal-message .modal-dialog .modal-content .modal-header p {
+    display: block;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 197, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_contact.scss */
+    .contact-section .contact_form .btn_1 {
+      margin-bottom: 60px !important;
+    }
+  }
+  
